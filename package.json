@@ -1,0 +1,38 @@
+{
+  "name": "@codingame/commitlint-config-codingame",
+  "version": "0.0.0-semantic-release",
+  "private": false,
+  "description": "Default configuration for commit lint at CodinGame",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint 'src/**/*.ts' && prettier --check '**/*.{js,ts}'",
+    "compile": "tsc",
+    "build": "npm run lint && npm run compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "volta": {
+    "node": "25.2.0",
+    "npm": "11.6.2"
+  },
+  "dependencies": {
+    "@codingame/semantic-release-rules": "^1.1.6",
+    "@commitlint/config-conventional": "^19.1.0"
+  },
+  "devDependencies": {
+    "@codingame/commitlint-config-codingame": "^1.1.1",
+    "@codingame/tsconfig": "^1.1.1",
+    "eslint": "^9.39.2",
+    "prettier": "^3.8.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.53.0"
+  }
+}
