@@ -1,0 +1,3 @@
+# @codingame/commitlint-config-codingame &middot; [![monthly downloads](https://img.shields.io/npm/dm/@codingame/commitlint-config-codingame)](https://www.npmjs.com/package/@codingame/commitlint-config-codingame) [![npm version](https://img.shields.io/npm/v/@codingame/commitlint-config-codingame.svg?style=flat)](https://www.npmjs.com/package/@codingame/commitlint-config-codingame)
+
+Default configuration for commit lint at CodinGame
